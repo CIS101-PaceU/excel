@@ -1,0 +1,80 @@
+#main-wrapper{
+	
+width: 500px;
+margin: 0 auto;
+background: white;
+padding: 5px;
+border-radius: 10px;
+border: 2px solid #2c3e50
+}
+
+.logo{
+	
+display: block;
+width:200px;
+height: 150px;
+}
+
+.myClass{
+	width: 450px;
+	margin: 0 auto;
+}
+
+.inputValues{
+	
+	width : 100%;
+	margin: 0 auto;
+	padding: 2px;
+}
+
+#login_btn{
+	
+	margin-top: 10px;
+	width: 100%;
+	background-color: #34495e;
+	pading: 5px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#reg_btn {
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	background-color: #34495e;
+	pading: 5px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#signup_btn {
+	
+	margin-top: 10px;
+	width: 100%;
+	background-color: #34495e;
+	pading: 5px;
+	color: white;
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#back_btn {
+
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 30%;
+	background-color: #e74c3c;
+	pading: 5px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
