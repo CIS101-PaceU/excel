@@ -1,0 +1,135 @@
+.logo{
+	display: block;
+	margin: auto;
+	width:80%;
+	height: auto;
+}
+
+.box{
+	display: block;
+	margin: 50px auto;
+	width: 50%;
+	height: 50%;
+	padding: 15px;
+	background-color: white;
+	box-shadow: 2px 2px 1px grey;
+}
+
+#btn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.txtfield{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px;
+}
+
+.txtfield:focus{
+	border: 3px solid #008CBA;
+}
+
+
+
+
+#main-wrapper{
+    
+width: 80%;
+margin: 0 auto;
+background: white;
+padding: 52px;
+border-radius: 10px;
+border: 2px solid #2c3e50;
+position: inherit;
+margin-top: 5%
+}
+
+
+
+#login_btn{
+    
+    margin-top: 10px;
+    width: 100%;
+    background-color: #34495e;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#reg_btn {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #34495e;
+    pading: 5px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#signup_btn {
+    
+    margin-top: 10px;
+    width: 100%;
+    background-color: #34495e;
+    pading: 5px;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#back_btn {
+
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    background-color: #e74c3c;
+    pading: 5px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.table-fixed thead {
+  width: 97%;
+}
+.table-fixed tbody {
+  height: 230px;
+  overflow-y: auto;
+  width: 100%;
+}
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+}

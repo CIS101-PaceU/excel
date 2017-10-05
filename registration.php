@@ -10,6 +10,7 @@
 <title>
 Registration Page
 </title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 <link rel="stylesheet" href="CSS/style.css">
 </head>
 
@@ -75,13 +76,13 @@ Registration Page
 				$query = "insert into userinfo(firstName,lastName,Address,userName,password,studBranch) values('$studFirstName','$studLastName','$studAddress','$username','$password','$studBranch')";
 				$query_run = mysqli_query($con,$query);
 				
-				if($query_run){
+				if(mysqli_num_rows($query_run) > 0){
 				$message = "Your account is created successfully..";
 				echo "<script type='text/javascript'>alert('$message');</script>";
 				}
 				else{
 					
-					$message = "Some error has occured!!...";
+					$message = "Some error has occured!!...". count($query_run);
 				echo "<script type='text/javascript'>alert('$message');</script>";
 				}
 			}
